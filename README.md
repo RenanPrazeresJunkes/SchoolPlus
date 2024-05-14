@@ -5,7 +5,7 @@
 # Problema: 
   Muitos alunos do ensino fundamental não têm acesso a recursos educacionais complementares que os ajudem a explorar seus interesses e prepará-los para futuras carreiras. Além disso, as feiras de profissões     presenciais podem ser limitadas em alcance e motivação.
 
-#Nicho:
+# Nicho:
   Alunos do ensino fundamental que buscam aprender mais sobre diferentes carreiras e áreas de estudo, bem como alunos universitários que desejam ganhar experiência prática e criar um portfólio relevante para o mercado de trabalho.
 
 # Proposta de valor: 
