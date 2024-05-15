@@ -1,0 +1,21 @@
+
+# @name cria_usuário
+POST http://localhost:3333/users
+Content-Type: application/json
+
+{
+    "name": "admin2",
+    "email": "admin2@example.com",
+    "password": "123456"
+}
+
+###
+
+# @name autentica_usuário
+POST http://localhost:3333/auth
+Content-Type: application/json
+
+{
+    "email": "admin@example.com",
+    "password": "123456"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "brigde-education",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Uma plataforma online que oferece um ambiente de aprendizado extra e intensivo para alunos do ensino fundamental, focada na promoção da educação de qualidade, alinhada com um dos Objetivos de Educação de Qualidade (ODS) da ONU.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo dev --parallel",
+    "build": "turbo build --parallel",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "turbo": "^1.13.3"
+  }
+}
