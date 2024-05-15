@@ -15,12 +15,12 @@ export default function Header() {
                         </h1>
                     </div>
                     <div className='hidden md:flex space-x-4'>
-                        <Link href='/login'>
+                        <Link href='/sign-in'>
                             <Button variant='default'>
                                 Login
                             </Button>
                         </Link>
-                        <Link href='/signup'>
+                        <Link href='/sign-up'>
                             <Button variant='default'>
                                 Cadastro
                             </Button>
