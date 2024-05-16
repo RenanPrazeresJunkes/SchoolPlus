@@ -27,14 +27,14 @@ export default function DashboardHeader() {
           </div>
         </div>
         <nav className="hidden md:flex space-x-6 items-center">
-          <Link className="text-gray-600 hover:text-gray-800" href="#">
-            Categorias
+          <Link className="text-gray-600 hover:text-gray-800" href="/catalog">
+            <p className="font-medium hover:text-sky-500 transition duration-300">Catalogo</p>
           </Link>
           <Link className="text-gray-600 hover:text-gray-800" href="#">
-            Ensine na bridge
+          <p className="font-medium hover:text-sky-500 transition duration-300">Ensine na bridge</p>
           </Link>
-          <Link className="text-gray-600 hover:text-gray-800" href="#">
-            Meus cursos
+          <Link className="text-gray-600 hover:text-gray-800" href="/dashboard">
+          <p className="font-medium hover:text-sky-500 transition duration-300">Meus cursos</p>
           </Link>
           <Button className="bg-[#0085FF] text-white px-4 py-2 rounded-md">Bridge +</Button>
         </nav>

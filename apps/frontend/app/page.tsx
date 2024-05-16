@@ -49,36 +49,36 @@ export default function Home() {
                                 <div className='flex -space-x-4'>
                                     <Image
                                         className='inline-block rounded-full ring-1 ring-slate-100'
-                                        width={10}
-                                        height={10}
+                                        width={50}
+                                        height={50}
                                         src='/users/user-1.png'
                                         alt='tutor universitário'
                                     />
                                     <Image
                                         className='inline-block rounded-full ring-2 ring-slate-100'
-                                        height={10}
-                                        width={10}
+                                        height={50}
+                                        width={50}
                                         src='/users/user-2.png'
                                         alt='tutor universitário'
                                     />
                                     <Image
                                         className='inline-block rounded-full ring-2 ring-slate-100'
-                                        height={10}
-                                        width={10}
+                                        height={50}
+                                        width={50}
                                         src='/users/user-3.png'
                                         alt='tutor universitário'
                                     />
                                     <Image
                                         className='inline-block rounded-full ring-2 ring-slate-100'
-                                        height={10}
-                                        width={10}
+                                        height={50}
+                                        width={50}
                                         src='/users/user-4.jpg'
                                         alt='tutor universitário'
                                     />
                                     <Image
                                         className='inline-block rounded-full ring-2 ring-slate-100'
-                                        height={10}
-                                        width={10}
+                                        height={50}
+                                        width={50}
                                         src='/users/user-5.jpg'
                                         alt='tutor universitário'
                                     />
@@ -140,8 +140,8 @@ export default function Home() {
                             <div className='flex gap-4 mt-2'>
                                 <Image
                                     className='rounded-full object-cover'
-                                    height={12}
-                                    width={12}
+                                    height={50}
+                                    width={50}
                                     src='/users/user-1.png'
                                     alt='aluno'
                                 />
@@ -174,8 +174,8 @@ export default function Home() {
                             <div className='flex gap-4 mt-2'>
                                 <Image
                                     className='rounded-full object-cover'
-                                    width={12}
-                                    height={12}
+                                    width={50}
+                                    height={50}
                                     src='/users/user-4.jpg'
                                     alt='aluno'
                                 />
@@ -230,7 +230,7 @@ export default function Home() {
                                     size: 'lg',
                                     className: 'mx-auto mt-8',
                                 })}
-                                href='/configure/upload'>
+                                href='/sign-in'>
                                 Avance para seu futuro agora <ArrowRight className='h-4 w-4 ml-1.5' />
                             </Link>
                         </div>
