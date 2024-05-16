@@ -28,7 +28,7 @@ export default function DashboardHeader() {
         </div>
         <nav className="hidden md:flex space-x-6 items-center">
           <Link className="text-gray-600 hover:text-gray-800" href="/catalog">
-            <p className="font-medium hover:text-sky-500 transition duration-300">Catalogo</p>
+            <p className="font-medium hover:text-sky-500 transition duration-300">Catálogo</p>
           </Link>
           <Link className="text-gray-600 hover:text-gray-800" href="#">
           <p className="font-medium hover:text-sky-500 transition duration-300">Ensine na bridge</p>
@@ -36,7 +36,9 @@ export default function DashboardHeader() {
           <Link className="text-gray-600 hover:text-gray-800" href="/dashboard">
           <p className="font-medium hover:text-sky-500 transition duration-300">Meus cursos</p>
           </Link>
+          <Link href="/brigde-plus">
           <Button className="bg-[#0085FF] text-white px-4 py-2 rounded-md">Bridge +</Button>
+          </Link>
         </nav>
         <div className="flex items-center space-x-4">
           <BellIcon className="text-gray-600 w-6 h-6" />

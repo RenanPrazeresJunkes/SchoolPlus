@@ -10,6 +10,7 @@ export default function InProgressCourses() {
           <div className="container mx-auto px-4 md:px-6 lg:px-8">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-8">Vamos voltar a <span className="text-sky-500">aprender!</span></h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+              <Link href="/video-page">
               <Card>
                 <div className="flex items-center gap-4">
                   <Image
@@ -30,6 +31,7 @@ export default function InProgressCourses() {
                   </div>
                 </div>
               </Card>
+              </Link>
               <Card>
                 <div className="flex items-center gap-4">
                   <Image
